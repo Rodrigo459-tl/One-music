@@ -1,0 +1,1 @@
+SELECT * FROM usuarios  WHERE email_usuario = 'superadmin@pdo.com' and password_usuario = SHA2('superadmin123',0);
